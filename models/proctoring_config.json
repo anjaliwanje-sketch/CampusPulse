@@ -1,0 +1,14 @@
+{
+  "flagDecays": {
+    "PHONE_DETECTED": 25,
+    "MULTIPLE_PERSONS_DETECTED": 30,
+    "FACE_NOT_DETECTED": 15,
+    "TAB_SWITCH": 10,
+    "AUDIO_SUSPICIOUS": 10
+  },
+  "trustThresholds": {
+    "verified": 80,
+    "flaggedForReview": 60,
+    "disqualified": 40
+  }
+}

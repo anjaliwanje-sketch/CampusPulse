@@ -1,0 +1,13 @@
+{
+  "weights": {
+    "academic": 0.15,
+    "aptitude": 0.25,
+    "technical": 0.35,
+    "interview": 0.25
+  },
+  "riskThresholds": {
+    "ready": 75,
+    "mediumRisk": 55,
+    "highRisk": 0
+  }
+}

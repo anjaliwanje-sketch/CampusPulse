@@ -1,0 +1,26 @@
+{
+  "name": "campuspulse-monorepo",
+  "version": "1.0.0",
+  "description": "CampusPulse — AI-Powered Student Placement Readiness & Intervention Platform",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "install:all": "npm install --prefix backend && npm install --prefix frontend",
+    "dev:backend": "npm run dev --prefix backend",
+    "dev:frontend": "npm run dev --prefix frontend",
+    "start:backend": "npm start --prefix backend",
+    "build:frontend": "npm run build --prefix frontend",
+    "test:backend": "npm test --prefix backend"
+  },
+  "keywords": [
+    "campuspulse",
+    "placement",
+    "readiness",
+    "intervention",
+    "ai-interview",
+    "proctoring",
+    "skill-gaps"
+  ],
+  "author": "CampusPulse Team",
+  "license": "MIT"
+}
